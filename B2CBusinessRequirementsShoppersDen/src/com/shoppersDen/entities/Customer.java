@@ -1,7 +1,12 @@
 package com.shoppersDen.entities;
 
-public class Customer {
+public class Customer extends User {
 
+	public Customer() {
+		super();
+		// TODO Auto-generated constructor stub
+
+	}
 	public String securityQuestion;
 	public String securityAnswer;
 	

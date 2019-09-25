@@ -9,6 +9,16 @@ public class ShoppingCart {
 		public int getProductId() {
 			return productId;
 		}
+		
+		public ShoppingCart(int productId, String productName, double price, int quantity) {
+			super();
+			this.productId = productId;
+			this.productName = productName;
+			this.price = price;
+			this.quantity = quantity;
+		}
+
+
 		public void setProductId(int productId) {
 			this.productId = productId;
 		}
