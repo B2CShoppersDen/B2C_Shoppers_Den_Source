@@ -1,5 +1,9 @@
 package com.shoppersDen.views;
 
+import java.util.Scanner;
+
+import com.shoppersDen.controllers.AdminController;
+
 public class AdminLoginView {
 
 	public void mainAdminView() {
@@ -12,7 +16,10 @@ public class AdminLoginView {
 		System.out.println("Enter UserName");
 		String adminName=sc.next();
 		System.out.println("Enter Password");
-		String adminPassword
+		String adminPassword=sc.next();
+		
+		AdminController adminController=new AdminController();
+		adminController.verification(adminName,adminPassword;)
 	}
 
 }
