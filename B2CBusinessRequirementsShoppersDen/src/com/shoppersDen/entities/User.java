@@ -6,7 +6,11 @@ public class User {
 	public String password;
 	public String userName;
 	public String email;
+	
 
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
 	public int getUserId() {
 		return userId;
 	}

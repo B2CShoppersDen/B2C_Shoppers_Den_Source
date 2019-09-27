@@ -2,55 +2,23 @@ package com.shoppersDen.entities;
 
 public class Product {
 
-	public int categoryId;
-	public int productId;
-	public String productName;
-	public String productDescription;
-	public String img_url;
-	public double price;
-	public int quantity;
-	
-	public int getCategoryId() {
-		return categoryId;
-	}
-	public void setCategoryId(int categoryId) {
-		this.categoryId = categoryId;
-	}
+	private int productId;
+	private ProductDetails productdetails;
 	public int getProductId() {
 		return productId;
 	}
 	public void setProductId(int productId) {
 		this.productId = productId;
 	}
-	public String getProductName() {
-		return productName;
+	public ProductDetails getProductdetails() {
+		return productdetails;
 	}
-	public void setProductName(String productName) {
-		this.productName = productName;
+	public void setProductdetails(ProductDetails productdetails) {
+		this.productdetails = productdetails;
 	}
-	public String getProductDescription() {
-		return productDescription;
-	}
-	public void setProductDescription(String productDescription) {
-		this.productDescription = productDescription;
-	}
-	public String getImg_url() {
-		return img_url;
-	}
-	public void setImg_url(String img_url) {
-		this.img_url = img_url;
-	}
-	public double getPrice() {
-		return price;
-	}
-	public void setPrice(double price) {
-		this.price = price;
-	}
-	public int getQuantity() {
-		return quantity;
-	}
-	public void setQuantity(int quantity) {
-		this.quantity = quantity;
+	@Override
+	public String toString() {
+		return "Product [productId=" + productId + ", productdetails=" + productdetails + "]";
 	}
 	
 }

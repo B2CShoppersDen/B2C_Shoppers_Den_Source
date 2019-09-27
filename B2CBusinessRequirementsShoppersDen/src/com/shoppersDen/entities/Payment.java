@@ -2,55 +2,23 @@ package com.shoppersDen.entities;
 
 public class Payment {
 
-	public int paymentId;
-	public String paymentType;
-	private long cardNumber;
-	private int expiryMonth;
-	private int expiryYear;
-	private int cvv;
-	public String cardHolderName;
+	private int paymentId;
+	private PaymentDetails paymentDetails;
 	public int getPaymentId() {
 		return paymentId;
 	}
 	public void setPaymentId(int paymentId) {
 		this.paymentId = paymentId;
 	}
-	public String getPaymentType() {
-		return paymentType;
+	public PaymentDetails getPaymentDetails() {
+		return paymentDetails;
 	}
-	public void setPaymentType(String paymentType) {
-		this.paymentType = paymentType;
+	public void setPaymentDetails(PaymentDetails paymentDetails) {
+		this.paymentDetails = paymentDetails;
 	}
-	public long getCardNumber() {
-		return cardNumber;
+	@Override
+	public String toString() {
+		return "PaymentDetails [paymentId=" + paymentId + ", paymentDetails=" + paymentDetails + "]";
 	}
-	public void setCardNumber(long cardNumber) {
-		this.cardNumber = cardNumber;
-	}
-	public int getExpiryMonth() {
-		return expiryMonth;
-	}
-	public void setExpiryMonth(int expiryMonth) {
-		this.expiryMonth = expiryMonth;
-	}
-	public int getExpiryYear() {
-		return expiryYear;
-	}
-	public void setExpiryYear(int expiryYear) {
-		this.expiryYear = expiryYear;
-	}
-	public int getCvv() {
-		return cvv;
-	}
-	public void setCvv(int cvv) {
-		this.cvv = cvv;
-	}
-	public String getCardHolderName() {
-		return cardHolderName;
-	}
-	public void setCardHolderName(String cardHolderName) {
-		this.cardHolderName = cardHolderName;
-	}
-	
-	
+
 }

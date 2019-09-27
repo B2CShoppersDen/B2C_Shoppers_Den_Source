@@ -6,6 +6,12 @@ public class Transaction {
 	public int paymentId;
 	public String paymentType;
 
+	public Transaction(int transactionId, int paymentId, String paymentType) {
+		super();
+		this.transactionId = transactionId;
+		this.paymentId = paymentId;
+		this.paymentType = paymentType;
+	}
 	public int getTransactionId() {
 		return transactionId;
 	}
