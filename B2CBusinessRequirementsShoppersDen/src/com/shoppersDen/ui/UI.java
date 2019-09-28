@@ -4,12 +4,16 @@ import java.util.Scanner;
 
 import com.shoppersDen.views.AdminLoginView;
 import com.shoppersDen.views.CustomerLoginView;
+import com.shoppersDen.views.CustomerRegistrationView;
+import com.shoppersDen.views.ProductView;
 
 public class UI {
 
 	public static void main(String[] args) {
 		System.out.println("Enter 1 if you are an Admin");
 		System.out.println("Enter 2 if you are a Customer");
+		System.out.println("Enter 3 if you are a new Customer");
+		
 		System.out.println("Enter Your Option");
 		
 		Scanner in = new Scanner(System.in);
@@ -26,6 +30,9 @@ public class UI {
 		case 2: CustomerLoginView customerLoginView=new CustomerLoginView();
 		customerLoginView.mainCustomerView();
 		break;
+		case 3: CustomerRegistrationView customerRegistrationView=new CustomerRegistrationView();
+		customerRegistrationView.mainCustomerView();
+	
 		}
 	}
 }

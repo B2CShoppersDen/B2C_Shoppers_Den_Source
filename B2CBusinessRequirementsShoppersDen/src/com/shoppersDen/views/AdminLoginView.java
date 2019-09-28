@@ -19,7 +19,7 @@ public class AdminLoginView {
 		String adminPassword=sc.next();
 		
 		AdminController adminController=new AdminController();
-		adminController.verification(adminName,adminPassword;)
+		adminController.Verification(adminName,adminPassword);
 	}
 
 }
