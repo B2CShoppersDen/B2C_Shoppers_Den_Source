@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+<<<<<<< HEAD
+	<name>B2C_Shoppers_Den_Source</name>
+=======
+	<name>B2CBusinessRequirementsShoppersDen</name>
+>>>>>>> branch 'master' of https://github.com/B2CShoppersDen/B2C_Shoppers_Den_Source.git
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>

@@ -9,14 +9,14 @@ public class AdminLoginView {
 	public void mainAdminView() {
 		// TODO Auto-generated method stub
 	
-		Scanner sc=new Scanner(System.in);
+		Scanner scanner=new Scanner(System.in);
 		
 		System.out.println("======Admin View======");
 		
 		System.out.println("Enter UserName");
-		String adminName=sc.next();
+		String adminName=scanner.next();
 		System.out.println("Enter Password");
-		String adminPassword=sc.next();
+		String adminPassword=scanner.next();
 		
 		AdminController adminController=new AdminController();
 		adminController.Verification(adminName,adminPassword);
