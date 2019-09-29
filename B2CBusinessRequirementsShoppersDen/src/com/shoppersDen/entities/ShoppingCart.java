@@ -1,6 +1,6 @@
 package com.shoppersDen.entities;
 
-<<<<<<< HEAD
+
 public class ShoppingCart{
 	
 	private int productId;
@@ -36,9 +36,6 @@ public class ShoppingCart{
 		return "ShoppingCart [productId=" + productId + ", productName=" + productName + ", price=" + price
 				+ ", quantity=" + quantity + "]";
 	}
-	
-	
-=======
 public class ShoppingCart {
 
 		public int productId;
@@ -80,7 +77,7 @@ public class ShoppingCart {
 			this.quantity = quantity;
 		}
 		
->>>>>>> branch 'master' of https://github.com/B2CShoppersDen/B2C_Shoppers_Den_Source.git
+
 }
 
 

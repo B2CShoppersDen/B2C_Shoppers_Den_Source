@@ -1,5 +1,5 @@
 package com.shoppersDen.dao;
 
-public class PaymentDao {
+public interface PaymentDao {
 
 }

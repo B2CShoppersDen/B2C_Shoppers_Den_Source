@@ -11,7 +11,7 @@ public class AdminController
 	
 	public void Verification(String userName,String password)
 	{
-		AdminLoginModel adminLoginModel=new AdminLoginModel();
+		AdminLoginModel adminLoginModel=new AdminLoginModel();    
 		adminLoginModel.setAdminName(userName);
 		adminLoginModel.setAdminPassword(password);
 		AdminServiceImpl userService=new AdminServiceImpl();

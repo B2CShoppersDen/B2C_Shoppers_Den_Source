@@ -1,6 +1,6 @@
 package com.shoppersDen.dao;
 
-public class TransactionDao {
+public interface TransactionDao {
 	
 
 }

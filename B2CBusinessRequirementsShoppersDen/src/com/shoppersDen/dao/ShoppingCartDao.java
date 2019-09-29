@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.virtusa.dao.Customer_DAO;
 
-public class ShoppingCartDao {
+public interface ShoppingCartDao {
 	
 	private int orderNumber;
 	private CustomerDao customerdao;

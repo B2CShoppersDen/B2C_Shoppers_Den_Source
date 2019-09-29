@@ -1,4 +1,4 @@
-package com.shoppersDen.entities;
+ package com.shoppersDen.entities;
 
 public class Payment {
 }

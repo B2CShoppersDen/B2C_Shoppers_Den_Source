@@ -1,5 +1,5 @@
 package com.shoppersDen.dao;
 
-public class CustomerDao {
+public interface CustomerDao {
 
 }

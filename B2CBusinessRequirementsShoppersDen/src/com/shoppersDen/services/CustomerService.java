@@ -1,5 +1,5 @@
 package com.shoppersDen.services;
 
-public class CustomerService {
+public interface CustomerService {
 
 }
