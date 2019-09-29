@@ -17,4 +17,5 @@ public class AdminModel {
 		this.password = password;
 	}
 	
+	
 }

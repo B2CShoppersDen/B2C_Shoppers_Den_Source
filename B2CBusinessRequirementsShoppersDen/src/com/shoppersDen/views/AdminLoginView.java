@@ -7,6 +7,7 @@ import com.shoppersDen.controllers.AdminController;
 public class AdminLoginView {
 
 	public void mainAdminView() {
+		
 		// TODO Auto-generated method stub
 	
 		Scanner scanner=new Scanner(System.in);

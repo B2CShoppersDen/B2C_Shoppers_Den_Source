@@ -1,6 +1,7 @@
 package com.shoppersDen.entities;
 
 public class Admin {
+	
 		
 	private int adminId;
 	private String adminUserName;

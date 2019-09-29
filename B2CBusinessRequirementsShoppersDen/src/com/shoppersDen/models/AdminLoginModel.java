@@ -1,6 +1,7 @@
 package com.shoppersDen.models;
 
 public class AdminLoginModel {
+	
 
 	public void setAdminName(String userName) {
 		// TODO Auto-generated method stub

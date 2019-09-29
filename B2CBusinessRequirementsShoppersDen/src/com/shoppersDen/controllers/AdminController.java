@@ -43,6 +43,7 @@ public class AdminController
 		adminServiceImpl.deleteProduct();
 	}
 	
+	
 	public void updateProductController() {
 		AdminServiceImpl adminServiceImpl = new AdminServiceImpl();
 		adminServiceImpl.updateCost();	

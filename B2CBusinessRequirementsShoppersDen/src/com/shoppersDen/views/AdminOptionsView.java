@@ -72,6 +72,7 @@ public class AdminOptionsView {
 			AdminController adminController=new AdminController();
 			adminController.updateProductController();
 		}
+		
 	
 	
 	

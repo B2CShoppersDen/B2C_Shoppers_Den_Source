@@ -8,6 +8,7 @@ public interface AdminDAO
 	public void addProduct();
 	public void deleteProduct(); 
 	public void updateCost();
-	public void viewTransaction();  
+	public void viewTransaction();
+	
 
 }
