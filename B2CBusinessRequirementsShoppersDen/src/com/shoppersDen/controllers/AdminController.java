@@ -31,6 +31,27 @@ public class AdminController
 						System.out.println("User Authentication failed");
 					}
 			}
+	
+	public void addProductController()
+	{
+		AdminServiceImpl adminServiceImpl = new AdminServiceImpl();
+		adminServiceImpl.addProduct();
+	}
+	
+	public void deleteProductController() {
+		AdminServiceImpl adminServiceImpl = new AdminServiceImpl();
+		adminServiceImpl.deleteProduct();
+	}
+	
+	public void updateProductController() {
+		AdminServiceImpl adminServiceImpl = new AdminServiceImpl();
+		adminServiceImpl.updateCost();	
+	}
+	
+	
+	
+	
+	
 					
 }
 

@@ -2,9 +2,13 @@
 
 import java.util.Scanner;
 
+import com.shoppersDen.controllers.AdminController;
+import com.shoppersDen.models.ProductModel;
+
 public class AdminOptionsView {
 
-	public void mainAdminOptionsView() {
+	public void mainAdminOptionsView()
+	{
 		// TODO Auto-generated method stub
 		
 		Scanner scanner=new Scanner(System.in);
@@ -22,20 +26,52 @@ public class AdminOptionsView {
 		case 1: addProduct();
 		break;
 		
+		case 2:deleteProduct();
+		break;
+			
+		
+		
 		
 		}
 		
 		
 		
 		
+		
+		}
+		public ProductModel retriveProduct()
+		{
+			ProductModel productModel = new ProductModel();
+			productModel.getImg_url();
+			productModel.getCategoryId();
+			productModel.getPrice();
+			productModel.getProductDescription();
+			productModel.getProductId();
+			productModel.getProductName();
+			productModel.getQuantity();
+			
+			return productModel;
+			
+			
 		
 		}
 		public void addProduct()
 		{
-			
+			AdminController adminController = new AdminController();
+			adminController.addProductController();
 		
 		}
-	
+		
+		public void deleteProduct()
+		{
+			AdminController adminController=new AdminController();
+			adminController.deleteProductController();
+		}
+		public void updateProduct()
+		{
+			AdminController adminController=new AdminController();
+			adminController.updateProductController();
+		}
 	
 	
 	
