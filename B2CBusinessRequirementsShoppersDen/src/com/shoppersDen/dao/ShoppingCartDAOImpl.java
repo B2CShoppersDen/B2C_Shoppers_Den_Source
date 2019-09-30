@@ -9,14 +9,27 @@ package com.shoppersDen.dao;
 
 	import javax.activation.DataSource;
 
-	import com.shoppersDen.dao.Item;
+	public class ShoppingCartDAOImpl implements ShoppingCartDAO{
+		public String Item;
+		@Override
+		public void save(Item item) {
+			String query="insert into Item(id,name,price,qty)values(?,?,?,?)";
+			Connection con=null;
+			PreparedStatement ps=null;
+			
+		}
 
-	public class ShoppingCartDAOImpl implements ShoppingCartDAO {
-		private  DataSource dataSource;
-		public String item;
-		
-		public void setDataSource(DataSource dataSource) {
-			this.dataSource=dataSource;
+		@Override
+		public void displayAmount() {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void displayCart() {
+			// TODO Auto-generated method stub
+			
+		}
 			
 
 }
