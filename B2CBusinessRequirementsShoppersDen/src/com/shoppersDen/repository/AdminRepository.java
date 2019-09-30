@@ -16,7 +16,7 @@ public class AdminRepository {
 		admin.setAdminUserName("sahithi");
 		admin.setAdminPassword("reddy");
 	}
-	S
+	
 	
 	
 }
